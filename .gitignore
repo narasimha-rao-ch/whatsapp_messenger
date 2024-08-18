@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+.wwebjs_cache/
+sessions/
+
+src1/
+src_backup/
+
+# dotenv environment variables file
+.env
