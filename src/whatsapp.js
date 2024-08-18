@@ -8,7 +8,10 @@ function initializeWhatsApp(sessionId, io) {
         authStrategy: new LocalAuth({
             clientId: sessionId,
             dataPath: 'sessions'
-        })
+        }),
+        puppeteer: {
+            args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        }
     });
 
     client.on('qr', (qr) => {
