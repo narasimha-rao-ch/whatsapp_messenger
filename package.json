@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js --ignore *.json"
+    "start": "nodemon src/index.js --ignore *.json",
+    "run": "node src/index.js"
   },
   "keywords": [],
   "author": "",
